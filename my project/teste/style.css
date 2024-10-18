@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(#0c192c,rgb(51, 40, 97),rgb(51, 16, 50)) ;
+}
+@media (max-width:400px) {
+    #text{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .bot{
+        padding-left: 100px;
+    }
+    button{
+        background:linear-gradient(#0c192c,rgb(51, 40, 97),rgb(51, 16, 50)) ;
+        border-radius: 30px;
+        padding: 10px 30px;
+        border: 1px solid white;
+        color: whitesmoke  ;
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

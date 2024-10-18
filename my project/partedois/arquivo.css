@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Imagem\ do\ WhatsApp\ de\ 2024-10-17\ à\(s\)\ 09.14.08_24690950.jpg);
+    background-position: center;
+    overflow: hidden;
+    opacity: 1.0;
+}
+
+.amor {
+    align-items: center;
+    justify-content: center;
+
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:400px) {
+    .amor {
+        padding-left: 10px;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .amo {
+        padding: 40px;
+
+    }
+
+    .amo p {
+        font-size: 70px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .imgs {
+        padding-left: 35%;
+        margin-bottom: 40px;
+    }
+}
